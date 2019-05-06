@@ -18,6 +18,6 @@ print(greet("Ty"))
 
 r = requests.get("https://qvatis.com")
 print(r.status_code)
-
+print(r.ok)
 
 # Here is what a comment looks like in my current theme.
